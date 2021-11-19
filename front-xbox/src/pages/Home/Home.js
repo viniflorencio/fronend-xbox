@@ -1,11 +1,13 @@
 import React from 'react'
-import { Link } from "react-router-dom";
+import Jogolist from '../../components/JogoList/Jogolist';
 import "./Home.css";
+import {Header} from '../../components/Header/Header'
 
 export default function Home() {
     return (
         <div>
-            Home
+            <Header/>
+            <Jogolist/>
         </div>
     )
 }
